@@ -1,0 +1,208 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Setup do projeto e estrutura de pastas": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009272
+      },
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282019281
+      },
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282177195
+      }
+    ],
+    "2.1 Criar o schema Prisma com todos os modelos e enums": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009334
+      },
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282180897
+      }
+    ],
+    "2.2 Criar instância singleton do Prisma Client": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009386
+      }
+    ],
+    "3.1 Criar dados dos parques para seed": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009439
+      }
+    ],
+    "3.2 Criar dados de eventos para seed": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009493
+      }
+    ],
+    "3.3 Criar dados de atividades para seed": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009542
+      }
+    ],
+    "3.4 Criar script principal de seed": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009595
+      }
+    ],
+    "4. Checkpoint — Testar seed manualmente": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009642
+      }
+    ],
+    "5.1 Criar middleware de parsing JSON com tratamento de malformado": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009688
+      },
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282181383
+      }
+    ],
+    "5.2 Criar classes de erro customizadas e middleware de tratamento centralizado": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009764
+      },
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282181793
+      }
+    ],
+    "5.3 Criar middleware de autenticação JWT": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009819
+      }
+    ],
+    "6.1 Criar serviço JWT com blacklist em memória": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009869
+      },
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282182292
+      }
+    ],
+    "6.2 Criar serviço de validação com funções puras": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009920
+      },
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282182759
+      }
+    ],
+    "6.3 Criar transformadores de modelo para JSON de resposta": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282009970
+      }
+    ],
+    "7.1 Escrever testes property-based para funções de validação (Propriedades 1–12)": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010027
+      }
+    ],
+    "8.1 Criar app.js e server.js": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010077
+      }
+    ],
+    "9.1 Implementar AuthController e authRoutes": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010124
+      }
+    ],
+    "9.2 Criar roteador principal e montar authRoutes": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010179
+      }
+    ],
+    "10.1 Implementar ParqueController e parqueRoutes": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010227
+      }
+    ],
+    "11.1 Implementar EventoController e eventoRoutes": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010282
+      }
+    ],
+    "12.1 Implementar AtividadeController e atividadeRoutes": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010341
+      }
+    ],
+    "13. Checkpoint — Testar todos os endpoints manualmente": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010386
+      }
+    ],
+    "15.1 Criar README.md com instruções de instalação, configuração e execução": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010427
+      }
+    ],
+    "16. Checkpoint final — Executar toda a suíte de testes": [
+      {
+        "executionId": "5c979184-50e0-4ebe-a76d-f30cea59847d",
+        "chatSessionId": "sess_8cf99453-64a9-47d8-9a64-76f4c5bb5dff",
+        "timestamp": 1794282010469
+      }
+    ]
+  }
+}

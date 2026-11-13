@@ -1,0 +1,301 @@
+body{
+    position: relative;
+}
+section.eventosTemp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.eventosTemp h2{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.67em 0;
+}
+
+.eventosTemp p{
+    font-size: 25px;
+    margin-top: 0;
+}
+
+#eventContainer{
+    margin: 0 auto;
+    margin-bottom: 1em;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1280px;
+}
+
+#eventContainer{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+.cardContainer{
+    display: flex;
+    background: #ffffff;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid #82b342;
+    cursor: pointer;
+    align-items: center;
+}
+
+.cardContainer .infoPreview{
+    text-align: left;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.infoPreview h3{
+    color: #82b342;
+    font-size: 1.6rem;
+    margin-left: .5rem;
+}
+
+.infoPreview span{
+    font-size: 1.2rem;
+    color: #82b342;
+}
+.infoPreview p{
+    margin-left: .5rem;
+    font-size: 1.2rem;
+}
+
+#eventContainer .eventCard{
+    display: inline-block;
+    height: 150px;
+    width: 8rem;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    user-select: none;
+}
+
+.eventCard .eventCardHeader{
+    height: 20%;
+    border-radius: 15px 15px 0 0 ;
+    background-color: #ec4b4b;
+    display: flex;
+    justify-content: space-around;
+    pointer-events: none;
+
+}
+
+.eventCardHeader .hole{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.eventCard .eventCardBody{
+    height: 80%;
+    background-color: white;
+    border: 1px solid #9b9b9b;
+    border-radius: 0 0 15px 15px;
+    
+}
+
+.eventCardBody .date{
+    pointer-events: none;
+    font-size: 50px;
+    font-weight: bold;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fa7070;
+}
+
+.eventCardBody .hour{
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.eventCardBody .eventModal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventModal.show{
+    display: block;
+}
+
+.eventModal .eventModal-content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: max-content;
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.closeBtn{
+    position: absolute;
+    background-color: #dedede;
+    color: #ec4b4b;
+    height: 25px;
+    width: 25px;
+    padding: 0px;
+    line-height: 25px;
+    text-align: center;
+    top: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.eventContent-header{
+    height: 35%;
+}
+.eventContent-body{
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventContent-header .eventName{
+    color: #82b342;
+}
+.eventContent-header .eventTimeInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.eventContent-header .eventSpot{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+}
+.eventContent-body .eventDescription{
+    padding-bottom: 1rem;
+}
+
+.eventSpot span{
+    font-weight: 500;
+    color: #82b342;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.eventTimeInfo span {
+    border: 1px solid #82b342;
+    padding: 5px;
+    border-radius: 9px;
+    margin-left: 5px;
+}
+.eventTimeInfo span .label{
+    color: #82b342;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/* Estilos para o Filtro de Eventos */
+#filtroEventos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    margin-bottom: 30px;
+}
+
+.filtro-btn {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #82b342;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #82b342;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.filtro-btn:hover {
+    background-color: #82b342;
+    color: white;
+    transform: scale(1.05);
+}
+
+.filtro-btn.ativo {
+    background-color: #82b342;
+    color: white;
+}
+
+.cardContainer.oculto {
+    display: none !important;
+}
+
+
+
+/* Para celulares em retrato (até 480px) */
+@media screen and (max-width: 480px) {
+    #eventContainer .eventCard {
+        min-width: 130px;
+        margin: 0 1rem;
+    }
+
+    #eventContainer{
+    display: grid;
+    grid-template-columns:  1fr;
+    }
+
+    .cardContainer{
+        display: block;
+        padding-top: 20px;
+    }
+
+    .cardContainer .infoPreview{
+    text-align: center;
+    }
+
+    .eventCard{
+        margin-top: 10px;
+
+    }
+
+    .eventModal .eventModal-content{
+        height: max-content;
+        max-width: 350px;
+    }
+
+    .eventSpot span{
+        margin-right: 5px;
+        font-size: 18px;
+    }
+
+    .eventTimeInfo span .label{
+        font-size: 16px;
+    }
+    
+}
