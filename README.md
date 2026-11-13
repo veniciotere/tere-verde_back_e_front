@@ -37,3 +37,84 @@ Desenvolver uma plataforma que centralize informações sobre parques, atividade
 ### Back-End
 - Node.js
 - Express
+- PostgreSQL
+- JSON Web Token (JWT)
+- bcrypt
+- CORS
+
+### Ferramentas
+- Git
+- GitHub
+- Visual Studio Code
+- Postman
+
+## 📁 Estrutura do projeto
+
+```text
+tere-verde_back_e_front/
+│
+├── Tere-verde-main/       # Front-End
+│
+├── tere-verde-backend/    # Back-End
+│
+└── README.md
+```
+
+## ⚙️ Pré-requisitos
+
+Para executar o projeto localmente, é necessário ter instalado:
+
+- Node.js
+- PostgreSQL
+- Git
+
+## 💻 Como executar o projeto
+
+### 1. Clonar o repositório
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+### 2. Acessar a pasta do Back-End
+
+```bash
+cd tere-verde_back_e_front/tere-verde-backend
+```
+
+### 3. Instalar as dependências
+
+```bash
+npm install
+```
+
+### 4. Configurar o banco de dados
+
+Crie um banco de dados PostgreSQL e configure as variáveis de ambiente no arquivo `.env`, conforme o modelo `.env.example`, caso disponível.
+
+O script de estrutura do banco está localizado em:
+
+```text
+tere-verde-backend/data/schema.sql
+```
+
+### 5. Executar o servidor
+
+Consulte os comandos disponíveis no `package.json` do Back-End para iniciar a API.
+
+## 📌 Status do projeto
+
+**Em desenvolvimento.**
+
+O projeto está passando pelas etapas de implementação, integração entre Front-End e Back-End e testes das funcionalidades.
+
+## 👨‍🎓 Desenvolvedor
+
+**Marcos Vinicios Marques da Silva**
+
+- Matrícula: 01019051
+- Curso: Análise e Desenvolvimento de Sistemas (ADS)
+
+---
+
+🌱 **Terê Verde — Conectando pessoas à natureza de Teresópolis.**
